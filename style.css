@@ -229,7 +229,7 @@ h1, h2, h3 {
   transition: background var(--transition), border-color var(--transition);
 }
 
-.header__inner { display: flex; align-items: center; gap: 24px; padding-block: 16px; }
+.header__inner { display: flex; align-items: center; gap: 24px; padding-block:16px; }
 
 .logo { display: flex; align-items: center; gap: 10px; }
 .logo__img {
@@ -1195,7 +1195,7 @@ h1, h2, h3 {
 @media (max-width: 760px) {
   .header .logo {
     position: relative;
-    height: 70px;
+    height: 100px;
     width: auto;
   }
   .header .logo__img {
@@ -1203,13 +1203,13 @@ h1, h2, h3 {
     top: auto;
     left: auto;
     transform: none;
-    height: 70px;
+    height: 100px;
     width: auto;
-    max-width: 220px;
+    max-width: 280px;
   }
   .nav {
     position: fixed;
-    top: 80px;
+    top: 120px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -1230,6 +1230,7 @@ h1, h2, h3 {
   .header .header__inner {
     justify-content: center;
     width: 100%;
+    padding-block: 10px;
   }
 
   .nav__toggle.is-active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
@@ -1238,7 +1239,7 @@ h1, h2, h3 {
 
   .header .btn--sm { display: none; }
 
-  .hero { padding: 130px 0 70px; }
+  .hero { padding: 145px 0 70px; }
   .features__grid { grid-template-columns: 1fr; }
   
   /* Services row list on mobile */
