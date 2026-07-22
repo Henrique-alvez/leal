@@ -1195,7 +1195,7 @@ h1, h2, h3 {
 @media (max-width: 760px) {
   .header .logo {
     position: relative;
-    height: 62px;
+    height: 120px;
     width: auto;
   }
   .header .logo__img {
